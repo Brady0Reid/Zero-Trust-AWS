@@ -191,4 +191,32 @@ Controls implemented include:
 ---
 
 ## 📂 Repository Structure
-
+```text
+Zero-Trust-AWS/
+├── README.md
+├── ARCHITECTURE.md
+├── SECURITY.md
+├── ISSUES-AND-RESOLUTIONS.md
+├── screenshots/
+│   ├── terraform-apply-success.png
+│   ├── terraform-state-resources.png
+│   ├── IAM-Terraform.png
+│   ├── IAM-zero-trust.png
+│   ├── sts-role.png
+│   ├── ec2-private-zero-trust.png
+│   ├── vpc-s3-endpoint.png
+│   ├── s3-bucket-permissions.png
+│   ├── s3-public-access-block.png
+│   ├── S3-console-access-denied.png
+│   ├── cloudtrail-configuration.png
+│   └── cloudwatch-log.png
+└── terraform/
+    ├── README.md
+    ├── main.tf
+    ├── vpc.tf
+    ├── iam.tf
+    ├── s3.tf
+    ├── cloudtrail.tf
+    ├── variables.tf
+    └── outputs.tf
+```
